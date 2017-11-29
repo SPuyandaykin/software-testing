@@ -20,12 +20,12 @@ public class FirstTest {
 
     @Test
     public void myFirstTest(){
-        driver.get("http://www.google.com/");
+        driver.get("https://www.rambler.ru/");
     }
 
     @After
     public void stop (){
-        //       driver.quit();
-        //       driver = null;
+        driver.quit();
+        driver = null;
     }
 }
