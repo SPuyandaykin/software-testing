@@ -6,17 +6,20 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class IEdriverserverExplorerTest {
+public class NightlyFireFoxBrowserTest {
     private WebDriver driver;
     private WebDriverWait wait;
 
     @Before
     public void start(){
-        System.setProperty("webdriver.ie.driver", "c://Tools/drivers/IEDriverServer.exe");
-        driver = new InternetExplorerDriver();
+
+        FirefoxOptions ffOptions = new FirefoxOptions();
+        ffOptions.setBinary("c:\\Program Files\\Nightly\\firefox.exe");
+        driver = new FirefoxDriver(ffOptions);
         wait = new WebDriverWait(driver,10);
     }
 

@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf78dce7-fd79-4783-9e2e-5dc4024f81b6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step3/GeckodriverFirefoxTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step3/NightlyFireFoxBrowserTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/software-testing.iml" afterPath="$PROJECT_DIR$/software-testing.iml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java" afterPath="$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java" afterPath="$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step3/FirefixESRbrowserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/step3/FirefixESRbrowserTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +27,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -65,8 +51,8 @@
       <file leaf-file-name="GeckodriverFirefoxTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step3/GeckodriverFirefoxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="35" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEdriverserverExplorerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IEdriverserverExplorerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirefixESRbrowserTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NightlyFireFoxBrowserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/step3/NightlyFireFoxBrowserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirefixESRbrowserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="366">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,9 +132,10 @@
         <option value="$PROJECT_DIR$/src/test/java/step2/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/step2/LitecartAdminLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/step3/GeckodriverFirefoxTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step3/NightlyFireFoxBrowserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java" />
       </list>
     </option>
   </component>
@@ -147,9 +146,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="23" />
-    <option name="width" value="1107" />
+    <option name="x" value="111" />
+    <option name="y" value="17" />
+    <option name="width" value="1228" />
     <option name="height" value="701" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -170,10 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +217,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IEdriverserverExplorerTest">
+  <component name="RunManager" selected="JUnit.FirefixESRbrowserTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -275,31 +274,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="step3" />
       <option name="MAIN_CLASS_NAME" value="step3.FirefixESRbrowserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="step2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="software-testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="step2" />
-      <option name="MAIN_CLASS_NAME" value="step2.FirstTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -388,6 +362,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="NightlyFireFoxBrowserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="software-testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="step3" />
+      <option name="MAIN_CLASS_NAME" value="step3.NightlyFireFoxBrowserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -449,19 +448,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LitecartAdminLoginTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GeckodriverFirefoxTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IEdriverserverExplorerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirefixESRbrowserTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LitecartAdminLoginTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GeckodriverFirefoxTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IEdriverserverExplorerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FirefixESRbrowserTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NightlyFireFoxBrowserTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IEdriverserverExplorerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GeckodriverFirefoxTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FirefixESRbrowserTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LitecartAdminLoginTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FirefixESRbrowserTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NightlyFireFoxBrowserTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IEdriverserverExplorerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GeckodriverFirefoxTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LitecartAdminLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -482,39 +481,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 13h 20m 13s.xml">
+    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 15h 59m 02s.xml">
       <configuration name="FirefixESRbrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 13h 24m 26s.xml">
+    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 16h 03m 20s.xml">
       <configuration name="FirefixESRbrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 13h 25m 35s.xml">
+    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 16h 03m 53s.xml">
       <configuration name="FirefixESRbrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeckodriverFirefoxTest - 2017.12.03 at 13h 28m 55s.xml">
-      <configuration name="GeckodriverFirefoxTest" configurationId="JUnit" />
+    <history-entry file="FirefixESRbrowserTest - 2017.12.03 at 16h 04m 35s.xml">
+      <configuration name="FirefixESRbrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 12h 59m 03s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 15h 55m 35s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 13h 17m 02s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 15h 56m 36s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 13h 18m 29s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 15h 57m 16s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 13h 29m 51s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 15h 58m 20s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 13h 30m 31s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 15h 59m 35s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.03 at 13h 37m 39s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="NightlyFireFoxBrowserTest - 2017.12.03 at 16h 01m 23s.xml">
+      <configuration name="NightlyFireFoxBrowserTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="23" width="1107" height="701" extended-state="0" />
+    <frame x="111" y="17" width="1228" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,13 +529,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34479466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31506848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,6 +542,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -551,11 +550,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step2/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step3/GeckodriverFirefoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step2/LitecartAdminLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -776,10 +835,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step3/GeckodriverFirefoxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="162">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step3/NightlyFireFoxBrowserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -788,26 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step3/FirefixESRbrowserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="366">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

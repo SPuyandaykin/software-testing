@@ -10,14 +10,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+
 public class FirefixESRbrowserTest {
     private WebDriver driver;
     private WebDriverWait wait;
 
     @Before
     public void start(){
-        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
-        WebDriver driver = new FirefoxDriver(options);
+
+        FirefoxOptions ffOptions = new FirefoxOptions();
+        ffOptions.setBinary("C:\\Tools\\Browsers\\Mozilla Firefox\\firefox.exe").setLegacy(true);
+        driver = new FirefoxDriver(ffOptions);
         wait = new WebDriverWait(driver,10);
     }
 
@@ -33,7 +37,7 @@ public class FirefixESRbrowserTest {
 
     @After
     public void stop (){
-//        driver.quit();
-//        driver = null;
+        driver.quit();
+        driver = null;
     }
 }
