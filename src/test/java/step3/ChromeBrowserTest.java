@@ -32,12 +32,12 @@ public class ChromeBrowserTest {
     @Test
     public void myFirstTest(){
         driver.get("http://localhost/litecart/admin");
-/*        driver.findElement(By.name("username")).sendKeys("admin");
+        driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
 
         Assert.assertTrue(driver.getTitle().equals("My Store"));
-*/    }
+    }
 
     @After
     public void stop (){

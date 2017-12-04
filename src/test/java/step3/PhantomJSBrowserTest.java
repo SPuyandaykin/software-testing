@@ -6,20 +6,28 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class IEdriverserverExplorerTest {
+import java.io.File;
+
+public class PhantomJSBrowserTest {
     private WebDriver driver;
     private WebDriverWait wait;
 
     @Before
     public void start(){
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
-        caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-        driver = new InternetExplorerDriver(caps);
+
+ //       DesiredCapabilities DesireCaps = new DesiredCapabilities();
+ //       File src = new File("c:\\Tools\\Browsers\\phantomjs-2.1.1-windows\\phantomjs.exe");
+ //       DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "c:\\Tools\\Browsers\\phantomjs-2.1.1-windows\\");
+        File file = new File("C:\\Tools\\Browsers\\phantomjs-2.1.1-windows\\phantomjs.exe");
+        System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
+        PhantomJSDriver driver = new PhantomJSDriver();
         wait = new WebDriverWait(driver,10);
     }
 
