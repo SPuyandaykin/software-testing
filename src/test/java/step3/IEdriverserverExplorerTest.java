@@ -15,7 +15,6 @@ public class IEdriverserverExplorerTest {
 
     @Before
     public void start(){
-//        System.setProperty("webdriver.ie.driver", "c://Tools/drivers/IEDriverServer.exe");
         driver = new InternetExplorerDriver();
         wait = new WebDriverWait(driver,10);
     }
@@ -24,15 +23,15 @@ public class IEdriverserverExplorerTest {
     public void myFirstTest(){
         driver.get("http://localhost/litecart/admin");
         driver.findElement(By.name("username")).sendKeys("admin");
-//        driver.findElement(By.name("password")).sendKeys("admin");
-//        driver.findElement(By.name("login")).click();
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.name("login")).click();
 
-//        Assert.assertTrue(driver.getTitle().equals("My Store"));
+        Assert.assertTrue(driver.getTitle().equals("My Store"));
     }
 
     @After
     public void stop (){
-//        driver.quit();
-//        driver = null;
+        driver.quit();
+        driver = null;
     }
 }
