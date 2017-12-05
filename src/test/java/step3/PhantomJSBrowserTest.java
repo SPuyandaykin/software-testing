@@ -27,7 +27,7 @@ public class PhantomJSBrowserTest {
  //       DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "c:\\Tools\\Browsers\\phantomjs-2.1.1-windows\\");
         File file = new File("C:\\Tools\\Browsers\\phantomjs-2.1.1-windows\\phantomjs.exe");
         System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
-        PhantomJSDriver driver = new PhantomJSDriver();
+//        PhantomJSDriver driver = new PhantomJSDriver();
         wait = new WebDriverWait(driver,10);
     }
 
