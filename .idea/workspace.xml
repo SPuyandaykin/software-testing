@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf78dce7-fd79-4783-9e2e-5dc4024f81b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/step3/PhantomJSBrowserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/step3/PhantomJSBrowserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/step3/PhantomJSBrowserTest.java" afterPath="$PROJECT_DIR$/src/test/java/step3/PhantomJSBrowserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" afterPath="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="ChromeBrowserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step3/ChromeBrowserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="212">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="183">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,15 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenAllAdminMenuTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpenAllAdminMenuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/step3/PhantomJSBrowserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" />
       </list>
     </option>
   </component>
@@ -183,9 +177,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="172" />
-    <option name="y" value="14" />
     <option name="width" value="1727" />
     <option name="height" value="994" />
   </component>
@@ -538,29 +531,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.04 at 18h 48m 53s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.04 at 19h 47m 49s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 34m 10s.xml">
       <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 19h 48m 01s.xml">
-      <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 44m 28s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 19h 57m 28s.xml">
-      <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 49m 17s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 20h 01m 44s.xml">
-      <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 50m 42s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 20h 04m 14s.xml">
-      <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 51m 45s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 20h 04m 55s.xml">
-      <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 14h 58m 28s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 15h 00m 48s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OpenAllAdminMenuTest - 2017.12.05 at 15h 01m 38s.xml">
+      <configuration name="OpenAllAdminMenuTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PhantomJSBrowserTest - 2017.12.04 at 20h 06m 03s.xml">
       <configuration name="PhantomJSBrowserTest" configurationId="JUnit" />
@@ -570,7 +563,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="14" width="1727" height="994" extended-state="1" />
+    <frame x="172" y="0" width="1727" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -581,7 +574,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34014422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34014422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -591,7 +584,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,7 +600,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1046,10 +1039,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step3/ChromeBrowserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="212">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1059,19 +1062,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
