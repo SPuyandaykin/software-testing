@@ -7,12 +7,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
+import trenningdata.UserData;
 
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected WebDriver driver;
     protected WebDriverWait wait;
+
+    public UserData admin = new UserData("admin", "admin");
 
     @Before
     public void start(){

@@ -19,7 +19,8 @@ public class StickerHomePageTest extends BaseTest {
 
         for (int i = 0; i <= goodCounter-1; i++ ) {
             List<WebElement> goodsList = driver.findElements(By.cssSelector("li[class='product column shadow hover-light']"));
-            Assert.assertTrue(IsElementExists(By.cssSelector(".image-wrapper ddiv")));
+            int stickerCount = goodsList.get(i).findElements(By.cssSelector(".image-wrapper > div")).size();
+            Assert.assertTrue(stickerCount == 1);
             System.out.println("Sticker label is: " + goodsList.get(i).findElement(By.cssSelector(".image-wrapper div")).getText());
         }
     }
