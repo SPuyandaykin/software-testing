@@ -19,8 +19,7 @@ public class Page {
 
     public boolean IsElementExists(By iClassName)
     {
-        Boolean isPresent = driver.findElements(iClassName).size()>0;
-        if(isPresent) {
+        if(driver.findElements(iClassName).size()>0) {
             return true;
         }
         else {
@@ -28,9 +27,10 @@ public class Page {
         }
     }
 
-    public boolean isElementPresent(WebElement element) {
+    public boolean isElementPresent(By iClassName)
+    {
         try {
-            element.isDisplayed();
+            driver.findElement(iClassName).isDisplayed();
             return true;
         }catch (NoSuchElementException e){
             return false;

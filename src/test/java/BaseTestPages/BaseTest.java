@@ -30,26 +30,6 @@ public class BaseTest {
         webElement.sendKeys(text);
     }
 
-    public boolean IsElementExists(By iClassName)
-    {
-        Boolean isPresent = driver.findElements(iClassName).size()>0;
-        if(isPresent) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-
-    public boolean isElementPresent(WebElement element) {
-        try {
-            element.isDisplayed();
-            return true;
-        }catch (NoSuchElementException e){
-            return false;
-        }
-    }
-
     @After
     public void stop (){
         driver.quit();
