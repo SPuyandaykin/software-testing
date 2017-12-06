@@ -20,7 +20,7 @@ public class BaseTest {
     protected WebDriver getWebDriver(){
         if(driver == null){
             driver = new ChromeDriver();
-            driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
         }
         return driver;
     }
@@ -52,7 +52,7 @@ public class BaseTest {
 
     @After
     public void stop (){
-//        driver.quit();
-//        driver = null;
+        driver.quit();
+        driver = null;
     }
 }

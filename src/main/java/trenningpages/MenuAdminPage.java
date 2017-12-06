@@ -17,7 +17,12 @@ public class MenuAdminPage extends Page {
     }
 
     public int counterSubMenu(){
-        return driver.findElements(By.cssSelector("ul.docs li")).size();
+        int counter = 0;
+        if(IsElementExists(By.cssSelector("ul.docs li")))
+            counter = driver.findElements(By.cssSelector("ul.docs li")).size();
+        else
+            System.out.println("SubMenu not exist");
+        return counter;
     }
 
     public void selectMainMenu(int numSection){
