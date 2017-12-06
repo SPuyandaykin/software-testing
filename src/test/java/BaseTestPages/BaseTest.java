@@ -17,7 +17,7 @@ public class BaseTest {
     @Before
     public void start(){
         driver = new ChromeDriver();
-//        System.out.println(((HasCapabilities) driver).getCapabilities());
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,10);
     }
 
@@ -48,7 +48,7 @@ public class BaseTest {
 
     @After
     public void stop (){
-        driver.quit();
-        driver = null;
+//        driver.quit();
+//        driver = null;
     }
 }
