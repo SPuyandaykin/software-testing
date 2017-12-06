@@ -17,11 +17,12 @@ public class BaseTest {
 
     public UserData admin = new UserData("admin", "admin");
 
-    @Before
-    public void start(){
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver,10);
+    protected WebDriver getWebDriver(){
+        if(driver == null){
+            driver = new ChromeDriver();
+            driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        }
+        return driver;
     }
 
     protected void type(WebElement webElement, String text){

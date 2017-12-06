@@ -20,5 +20,6 @@ public class AdminPage extends Page{
         WebElement passField = driver.findElement(By.name("password"));
         type(nameField, admin.name);
         type(passField, admin.password);
+        driver.findElement(By.name("login")).click();
     }
 }
