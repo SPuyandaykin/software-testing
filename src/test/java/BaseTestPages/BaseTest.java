@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected WebDriver driver;
-    protected WebDriverWait wait;
 
     public UserData admin = new UserData("admin", "admin");
 

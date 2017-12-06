@@ -4,12 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class Page {
+
     protected WebDriver driver;
+    protected WebDriverWait wait;
 
     public Page(WebDriver driver){
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, 3);
     }
 
     protected void type(WebElement webElement, String text){
@@ -24,6 +30,19 @@ public class Page {
         }
         else {
             return false;
+        }
+    }
+
+    public boolean elementNotExist(By iClassName)
+    {
+        driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+        try {
+            driver.findElement(iClassName).isDisplayed();
+            driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+            return false;
+        }catch (NoSuchElementException e){
+            driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+            return true;
         }
     }
 

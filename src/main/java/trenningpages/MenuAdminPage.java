@@ -18,11 +18,10 @@ public class MenuAdminPage extends Page {
 
     public int counterSubMenu(){
         int counter = 0;
-//        if(IsElementExists(By.cssSelector("ul.docs li")))
-        if(isElementPresent(By.cssSelector("ul.docs li")))
-            counter = driver.findElements(By.cssSelector("ul.docs li")).size();
+        if(elementNotExist(By.cssSelector("ul.docs li")))
+            System.out.println("SubMenus not exist");
         else
-            System.out.println("SubMenu not exist");
+            counter = driver.findElements(By.cssSelector("ul.docs li")).size();
         return counter;
     }
 
