@@ -14,11 +14,11 @@ public class HomePage extends Page{
     }
 
     public int counterGoods(){
-        return driver.findElements(By.cssSelector("li[class='product column shadow hover-light']")).size();
+        return driver.findElements(By.className("image-wrapper")).size();
     }
 
     public int getStickerNumber(int numberDuck){
-        List<WebElement> listDucks = driver.findElements(By.cssSelector("li[class='product column shadow hover-light']"));
-        return listDucks.get(numberDuck).findElements(By.cssSelector(".image-wrapper > div")).size();
+        List<WebElement> listDucks = driver.findElements(By.className("image-wrapper"));
+        return listDucks.get(numberDuck).findElements(By.cssSelector("div[class^='sticker']")).size();
     }
 }
