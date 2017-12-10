@@ -22,4 +22,11 @@ public class AdminPage extends Page{
         type(passField, admin.password);
         driver.findElement(By.name("login")).click();
     }
+
+     public MenuAdminPage OpenAndLogin(UserData admin) {
+        open();
+        loginAs(admin);
+
+        return new MenuAdminPage(driver);
+    }
 }

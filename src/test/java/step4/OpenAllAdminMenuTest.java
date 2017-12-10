@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import trenningpages.AdminPage;
+import trenningpages.ContentPage;
 import trenningpages.MenuAdminPage;
 
 import java.util.List;
@@ -14,6 +15,7 @@ public class OpenAllAdminMenuTest extends BaseTest {
 
     private AdminPage adminPage;
     private MenuAdminPage menuPage;
+    private ContentPage contentPage;
 
     @Test
     public void MenuOpen () {
@@ -26,8 +28,8 @@ public class OpenAllAdminMenuTest extends BaseTest {
 
         int sizeMenu = menuPage.counterSectionMenu();
         for (int i = 0; i <= sizeMenu-1; i++ ) {
-            menuPage.selectMainMenu(i);
-            Assert.assertTrue(menuPage.isTitleH1Exist());
+            contentPage = menuPage.selectMainMenu(i);
+            Assert.assertTrue(contentPage.isTitleH1Exist());
 
             int sizeSubMenu = menuPage.counterSubMenu();
             for (int j = 0; j <= sizeSubMenu-1; j++ ) {
@@ -35,8 +37,8 @@ public class OpenAllAdminMenuTest extends BaseTest {
                     System.out.println("1st SubMenu has been tested on parent's menu level");
                     continue;
                 }
-                menuPage.selectSubMenu(j);
-                Assert.assertTrue(menuPage.isTitleH1Exist());
+                contentPage = menuPage.selectSubMenu(j);
+                Assert.assertTrue(contentPage.isTitleH1Exist());
             }
         }
 

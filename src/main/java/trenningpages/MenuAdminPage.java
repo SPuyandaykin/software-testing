@@ -25,22 +25,34 @@ public class MenuAdminPage extends Page {
         return counter;
     }
 
-    public void selectMainMenu(int numSection){
+    public ContentPage selectMainMenu(int numSection){
         List<WebElement> mainMenu = driver.findElements(By.cssSelector("#box-apps-menu #app-"));
         mainMenu.get(numSection).click();
+        return new ContentPage(driver);
     }
 
-    public void selectSubMenu(int numSection){
+    public ContentPage selectSubMenu(int numSection){
         List<WebElement> subMenu = driver.findElements(By.cssSelector("ul.docs li"));
         subMenu.get(numSection).click();
+        return new ContentPage(driver);
     }
 
     public boolean isTitleH1Exist(){
-        boolean flag = IsElementExists(By.cssSelector("h1"));
-        if(flag)
-            System.out.println("Menu title H1 is: " + driver.findElement(By.cssSelector("h1")).getText());
-        else
-            System.out.println("Menu title H1 doesn't exist");
-        return flag;
+        return IsElementExists(By.cssSelector("h1"));
+    }
+
+    public CountriesPage OpenCountriesPage() {
+        OpenMenu("Countries");
+        return new CountriesPage(driver);
+    }
+
+    private void OpenMenu(String menuName) {
+        String searchPath = "//a[./span[contains(text(),'"+menuName+"')]]";
+        driver.findElement(By.xpath(searchPath)).click();
+    }
+
+    public GeozonePage OpenGeozonePage() {
+        OpenMenu("Geo Zones");
+        return new GeozonePage (driver);
     }
 }
