@@ -12,12 +12,16 @@ public class PropertyAnalize {
     public boolean IsFontCrossed(WebElement fontCrossed){
         if (!fontCrossed.getCssValue("text-decoration").contains("line-through"))
             return false;
+
+        System.out.println(fontCrossed.getCssValue("text-decoration"));
         return true;
     }
 
     public boolean IsFontGray (WebElement fontGray) {
-        if(!propertyParcer.isColorGray(fontGray.getCssValue("text-decoration-color")))
+
+        if(!propertyParcer.isColorGray(fontGray.getCssValue("color")))
             return false;
+
         return true;
     }
 
@@ -43,7 +47,7 @@ public class PropertyAnalize {
     }
 
     private boolean iFontRed(WebElement fontRed) {
-        if(!propertyParcer.isColorRed(fontRed.getCssValue("text-decoration-color")))
+        if(!propertyParcer.isColorRed(fontRed.getCssValue("color")))
             return false;
         return true;
     }
@@ -52,6 +56,7 @@ public class PropertyAnalize {
         if(!fontStrong.getTagName().contains("strong"))
             return false;
 
+        System.out.println(fontStrong.getTagName());
         return true;
     }
 

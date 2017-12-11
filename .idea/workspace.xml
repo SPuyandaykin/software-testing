@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf78dce7-fd79-4783-9e2e-5dc4024f81b6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trenningobjects/DuckObject.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trenningpages/DuckPage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step5/DuckAttributiesTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trenningpages/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/trenningpages/HomePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java" afterPath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java" afterPath="$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trenningpages/HomePage.class" afterPath="$PROJECT_DIR$/target/classes/trenningpages/HomePage.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTestPages/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BaseTestPages/BaseTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +37,8 @@
       <file leaf-file-name="DuckAttributiesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step5/DuckAttributiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +49,8 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="-44">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#881#882#0" expanded="true" />
                 <element signature="e#924#925#0" expanded="true" />
@@ -91,8 +84,8 @@
       <file leaf-file-name="DuckPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/DuckPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="215">
+              <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -109,8 +102,8 @@
       <file leaf-file-name="DuckObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningobjects/DuckObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="56" selection-end-column="20" />
+            <state relative-caret-position="194">
+              <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -136,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyAnalize.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PropertyAnalize.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="1113">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
@@ -149,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyParcer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PropertyParcer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
+            <state relative-caret-position="75">
               <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding />
             </state>
@@ -213,11 +206,11 @@
         <option value="$PROJECT_DIR$/src/main/java/trenningobjects/ObjectCatalog.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningutils/ColorParcer.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningobjects/DuckObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/DuckPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/step5/DuckAttributiesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java" />
       </list>
     </option>
   </component>
@@ -227,9 +220,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="139" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="143" />
+    <option name="y" value="90" />
     <option name="width" value="1715" />
     <option name="height" value="929" />
   </component>
@@ -629,40 +622,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 11h 51m 33s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 23m 45s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 11h 56m 30s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 24m 50s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 11h 58m 42s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 25m 12s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 12h 02m 05s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 26m 48s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 12h 02m 41s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 28m 00s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 12h 03m 18s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 29m 00s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 12h 04m 33s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 30m 19s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuckAttributiesTest - 2017.12.11 at 12h 05m 28s.xml">
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 31m 46s.xml">
       <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeckodriverFirefoxTest - 2017.12.11 at 11h 52m 57s.xml">
-      <configuration name="GeckodriverFirefoxTest" configurationId="JUnit" />
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 32m 28s.xml">
+      <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IEdriverserverExplorerTest - 2017.12.11 at 11h 57m 40s.xml">
-      <configuration name="IEdriverserverExplorerTest" configurationId="JUnit" />
+    <history-entry file="DuckAttributiesTest - 2017.12.11 at 13h 33m 28s.xml">
+      <configuration name="DuckAttributiesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="139" y="31" width="1715" height="929" extended-state="1" />
-    <editor active="true" />
+    <frame x="143" y="90" width="1715" height="929" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -672,7 +664,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4073107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4073107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -975,9 +967,9 @@
         <state relative-caret-position="152">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#352#353#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1030,51 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="44" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningobjects/DuckObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/DuckPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1101,16 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step5/DuckAttributiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step3/IEdriverserverExplorerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1121,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="-44">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#881#882#0" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
@@ -1132,11 +1069,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/DuckPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/PropertyParcer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
+        <state relative-caret-position="75">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step5/DuckAttributiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningobjects/DuckObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/PropertyAnalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

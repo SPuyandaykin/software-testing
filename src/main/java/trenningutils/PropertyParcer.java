@@ -21,14 +21,13 @@ public class PropertyParcer {
     }
 
     public int [] GetCleanRGBdata(String sourceRGB){
-        System.out.println("color is"+sourceRGB);
+        System.out.println(sourceRGB);
         String delims = "\\(";
         String[] tokens = sourceRGB.split(delims);
         String s_new = tokens[1].replace(")","");
         String[] tokens2 = s_new.split(", ");
-        System.out.println("size is: "+tokens2.length);
 
-        Assert.assertTrue(tokens2.length == 3);
+        Assert.assertTrue(tokens2.length >= 3);
 
         int [] rgbData = {0,0,0};
 
@@ -42,7 +41,7 @@ public class PropertyParcer {
 
     public float GetDigitalFontSize(String stringSize) {
         float fontSize = 0;
-
+        System.out.println(stringSize);
         String s = stringSize.replaceAll("px", "");
         fontSize = Float.parseFloat(s);
         return fontSize;

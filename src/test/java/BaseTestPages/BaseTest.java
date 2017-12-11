@@ -21,9 +21,9 @@ public class BaseTest {
 
     @Before
     public void start(){
-//        startChromeDriver();
+        startChromeDriver();
 //        startFireFoxDriver();
-        startIEDriver();
+//        startIEDriver();
 
         driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
     }
