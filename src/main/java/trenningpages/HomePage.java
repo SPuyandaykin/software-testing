@@ -1,5 +1,6 @@
 package trenningpages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,5 +21,12 @@ public class HomePage extends Page{
     public int getStickerNumber(int numberDuck){
         List<WebElement> listDucks = driver.findElements(By.className("image-wrapper"));
         return listDucks.get(numberDuck).findElements(By.cssSelector("div[class^='sticker']")).size();
+    }
+
+    public WebElement GetDuckForTest(String sectionOfCatalog, int elementInSection) {
+        String spath = "//h3[contains(.,'"+sectionOfCatalog+"')]/..//div[@class='content']/ul/li";
+        List<WebElement> elements = driver.findElements(By.xpath(spath));
+        Assert.assertTrue(elements.size()>=elementInSection);
+        return elements.get(elementInSection-1);
     }
 }
