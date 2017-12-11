@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf78dce7-fd79-4783-9e2e-5dc4024f81b6" name="Default" comment="" />
+    <list default="true" id="bf78dce7-fd79-4783-9e2e-5dc4024f81b6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java" afterPath="$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step5/SortOfCountriesAndGeozoneTest.class" afterPath="$PROJECT_DIR$/target/test-classes/step5/SortOfCountriesAndGeozoneTest.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,32 +26,8 @@
       <file leaf-file-name="SortOfCountriesAndGeozoneTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeozonePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/GeozonePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditGeoZonePage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/EditGeoZonePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="354">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +38,9 @@
       <file leaf-file-name="CountriesPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountriesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="333">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,11 +48,9 @@
       <file leaf-file-name="CountryPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +58,7 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="105">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,23 +70,19 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-386">
+              <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilitiesClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/UtilitiesClass.java">
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,28 +90,12 @@
       <file leaf-file-name="MenuAdminPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/MenuAdminPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+            <state relative-caret-position="798">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/ContentPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,18 +139,18 @@
         <option value="$PROJECT_DIR$/src/test/java/step5/SoftOfContriesAndGeozonesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/step5/SoftOfCountriesAndGeozonesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/step5/SoftOfCountriesAndGeozoneTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/AdminPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/ContentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/step4/OpenAllAdminMenuTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/trenningpages/CountriesPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/CountryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/MenuAdminPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/GeozonePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningpages/EditGeoZonePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/trenningutils/UtilitiesClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/trenningpages/CountriesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java" />
       </list>
     </option>
   </component>
@@ -203,11 +160,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="53" />
-    <option name="width" value="1154" />
-    <option name="height" value="595" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="161" />
+    <option name="width" value="1675" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -227,10 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,6 +291,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,24 +553,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 09h 47m 43s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 09h 48m 28s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 02m 59s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 05m 13s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 05m 54s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 19m 44s.xml">
-      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 21m 10s.xml">
       <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
     </history-entry>
@@ -627,24 +565,43 @@
     <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.10 at 10h 41m 18s.xml">
       <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 05h 52m 06s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 05h 53m 28s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 05h 55m 28s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 05h 56m 37s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 05h 57m 36s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortOfCountriesAndGeozoneTest - 2017.12.11 at 06h 00m 34s.xml">
+      <configuration name="SortOfCountriesAndGeozoneTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="53" width="1154" height="595" extended-state="0" />
+    <frame x="161" y="0" width="1675" height="1032" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32112068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3210587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3599138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35903338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27879342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27204502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -957,14 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" column="2" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step4/StickerHomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -991,41 +940,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/ContentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountriesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/ContentPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1035,65 +953,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/MenuAdminPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="798">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/UtilitiesClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/GeozonePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/EditGeoZonePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountriesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/CountryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-386">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningutils/UtilitiesClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTestPages/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step5/SortOfCountriesAndGeozoneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/GeozonePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trenningpages/EditGeoZonePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

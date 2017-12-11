@@ -21,13 +21,13 @@ public class SortOfCountriesAndGeozoneTest extends BaseTest {
         menuPage = adminPage.OpenAndLogin(admin);
     }
 
-/*    @Test
+    @Test
     public void SortingTest () {
 
         countriesPage = menuPage.OpenCountriesPage();
         countriesPage.CheckAlphabeticCountriesOrder();
         countriesPage.CheckCountryZoneAlphabeticOrder();
-    }*/
+    }
 
     @Test
     public void GeoZoneTest (){
