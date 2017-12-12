@@ -55,4 +55,10 @@ public class MenuAdminPage extends Page {
         OpenMenu("Geo Zones");
         return new GeozonePage (driver);
     }
+
+    public SecurityPage OpenSecuritySubPage() {
+        OpenMenu("Settings");
+        OpenMenu("Security");
+        return new SecurityPage (driver);
+    }
 }

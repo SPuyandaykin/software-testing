@@ -29,4 +29,5 @@ public class AdminPage extends Page{
 
         return new MenuAdminPage(driver);
     }
+
 }
