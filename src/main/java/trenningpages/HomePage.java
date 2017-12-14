@@ -29,4 +29,15 @@ public class HomePage extends Page{
         Assert.assertTrue(elements.size()>=elementInSection);
         return elements.get(elementInSection-1);
     }
+
+    public boolean isProductExist(String newProduct){
+        return SearchProduct(newProduct).GetTitleH1().equals(newProduct);
+    }
+
+    public DuckPage SearchProduct(String newProduct) {
+
+        SetEditBoxValue("query", newProduct);
+        SendEnterToEditBox("query");
+        return new DuckPage(driver);
+    }
 }

@@ -21,7 +21,6 @@ public class UserRegistrationTest extends BaseTest {
     @Before
     public void SetUp(){
         adminPage = new AdminPage(getWebDriver());
-        menuPage = adminPage.OpenAndLogin(admin);
         loginPage = new LoginPage(getWebDriver());
         homePage = new HomePage(getWebDriver());
     }

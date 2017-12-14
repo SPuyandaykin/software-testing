@@ -66,4 +66,9 @@ public class MenuAdminPage extends Page {
         OpenMenu("Customers");
         return new CustomersPage (driver);
     }
+
+    public CatalogPage OpenCatalogSubPage(){
+        OpenMenu("Catalog");
+        return new CatalogPage (driver);
+    }
 }

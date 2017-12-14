@@ -1,9 +1,6 @@
 package trenningpages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import trenningutils.UtilitiesClass;
@@ -78,14 +75,24 @@ public class Page {
         return ClickBySelectorButton(selectorPath);
     }
 
-    public boolean SelectListBoxValie(String fieldName, String fieldValue) {
+    public boolean SelectListBoxValue(String fieldName, String fieldValue) {
         String selectorPath = "select[name="+fieldName+"]";
         return ClickOnSelectedListBoxElement(selectorPath, fieldValue);
     }
 
     public boolean SetEditBoxValue(String fieldName, String fieldValue) {
-        String selectorPath = "input[name="+fieldName+"]";
+        String selectorPath = "input[name='"+fieldName+"']";
         return SetSelectorEditBoxValue(selectorPath, fieldValue);
+    }
+
+    public boolean SendEnterToEditBox(String fieldName) {
+        String selectorPath = "input[name='"+fieldName+"']";
+        if(isElementPresent(By.cssSelector(selectorPath))){
+            driver.findElement(By.cssSelector(selectorPath)).sendKeys(Keys.ENTER);
+            return true;
+        }
+
+        return false;
     }
 
     public String GetEditBoxValue(String fieldName) {
@@ -131,7 +138,22 @@ public class Page {
     public boolean SetSelectorEditBoxValue(String cssPath, String value){
 
         if(isElementPresent(By.cssSelector(cssPath))){
-            driver.findElement(By.cssSelector(cssPath)).sendKeys(value);
+            WebElement element = driver.findElement(By.cssSelector(cssPath));
+            if(!element.getAttribute("type").equalsIgnoreCase("date"))
+                element.clear();
+            element.sendKeys(value);
+            return true;
+        }
+
+        return false;
+    }
+
+    public boolean SetTextAreaValue(String cssPath, String value){
+
+        if(isElementPresent(By.cssSelector(cssPath))){
+            WebElement element = driver.findElement(By.cssSelector(cssPath));
+            element.clear();
+            element.sendKeys(value);
             return true;
         }
 

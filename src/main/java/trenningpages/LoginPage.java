@@ -83,11 +83,11 @@ public class LoginPage extends Page {
     }
 
     private void SelectCounty(String sValue) {
-        Assert.assertTrue(SelectListBoxValie("country_code", sValue));
+        Assert.assertTrue(SelectListBoxValue("country_code", sValue));
     }
 
     private void SelectState(String sValue) {
-        Assert.assertTrue(SelectListBoxValie("zone_code", sValue));
+        Assert.assertTrue(SelectListBoxValue("zone_code", sValue));
     }
 
     private void SetCity(String sValue) {

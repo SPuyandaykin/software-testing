@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import trenningutils.PropertyAnalize;
 
-public class DuckPage extends Page {
+public class DuckPage extends ContentPage {
     protected PropertyAnalize propertyAnalize;
 
     public DuckPage(WebDriver driver){
