@@ -23,13 +23,8 @@ public class SecurityPage extends ContentPage {
             return;
 
         element.findElement(By.xpath(spath+"/td[3]/a")).click();
-        driver.findElement(By.xpath("//td/label/input[@value='"+ConvertFlagToInt(s_flag)+"']")).click();
+        driver.findElement(By.xpath("//td/label/input[@value='"+ConvertStringToBooleanStr(s_flag)+"']")).click();
         driver.findElement(By.cssSelector("button[name='save']")).click();
     }
 
-    private String ConvertFlagToInt(String s_flag) {
-        if(s_flag.equalsIgnoreCase("False"))
-            return "0";
-        return "1";
-    }
 }

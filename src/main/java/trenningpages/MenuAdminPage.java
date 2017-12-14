@@ -61,4 +61,9 @@ public class MenuAdminPage extends Page {
         OpenMenu("Security");
         return new SecurityPage (driver);
     }
+
+    public CustomersPage OpenCustomersPage() {
+        OpenMenu("Customers");
+        return new CustomersPage (driver);
+    }
 }

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import trenningutils.UtilitiesClass;
 
@@ -34,6 +35,7 @@ public class Page {
             return true;
         }
         else {
+            System.out.println("Element is not exist: "+ iClassName);
             return false;
         }
     }
@@ -53,11 +55,146 @@ public class Page {
 
     public boolean isElementPresent(By iClassName)
     {
+        if(!IsElementExists(iClassName)) {
+            return false;
+        }
         try {
             driver.findElement(iClassName).isDisplayed();
             return true;
         }catch (NoSuchElementException e){
+            System.out.println("Element is not displayed: "+ iClassName);
             return false;
         }
+    }
+
+    public boolean SetCheckBox(String fieldName, String fieldValue) {
+        String selectorPath = "input[name="+fieldName+"]";
+        return SetSelectorCheckBox(selectorPath, fieldValue);
+
+    }
+
+    public boolean ClickButton(String fieldName){
+        String selectorPath = "button[name="+fieldName+"]";
+        return ClickBySelectorButton(selectorPath);
+    }
+
+    public boolean SelectListBoxValie(String fieldName, String fieldValue) {
+        String selectorPath = "select[name="+fieldName+"]";
+        return ClickOnSelectedListBoxElement(selectorPath, fieldValue);
+    }
+
+    public boolean SetEditBoxValue(String fieldName, String fieldValue) {
+        String selectorPath = "input[name="+fieldName+"]";
+        return SetSelectorEditBoxValue(selectorPath, fieldValue);
+    }
+
+    public String GetEditBoxValue(String fieldName) {
+        String selectorPath = "input[name="+fieldName+"]";
+        return GetEditBoxPropery(selectorPath, "value");
+    }
+
+    public boolean ClickOnSelectedListBoxElement(String cssPath, String fieldValue){
+        if(isElementPresent(By.cssSelector(cssPath))) {
+            Select dateDropDown=new Select(driver.findElement(By.cssSelector(cssPath)));
+            dateDropDown.selectByVisibleText(fieldValue);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean ClickBySelectorButton(String cssPath){
+        if(isElementPresent(By.cssSelector(cssPath))) {
+            driver.findElement(By.cssSelector(cssPath)).click();
+            return true;
+        }
+
+        return false;
+    }
+
+    public boolean SetSelectorCheckBox(String cssPath, String value){
+
+        if(!isElementPresent(By.cssSelector(cssPath))){
+            return false;
+        }
+
+        if(GetCurrentCheckboxStatus(cssPath).equalsIgnoreCase(ConvertStringToCheckboxStatus(value)))
+            return true;
+
+        driver.findElement(By.cssSelector(cssPath)).click();
+        return true;
+    }
+
+    public String GetCurrentCheckboxStatus(String cssPath){
+        return driver.findElement(By.cssSelector(cssPath)).getAttribute("checked");
+    }
+
+    public boolean SetSelectorEditBoxValue(String cssPath, String value){
+
+        if(isElementPresent(By.cssSelector(cssPath))){
+            driver.findElement(By.cssSelector(cssPath)).sendKeys(value);
+            return true;
+        }
+
+        return false;
+    }
+
+    protected String GetEditBoxPropery(String cssPath, String propertyName){
+        if(isElementPresent(By.cssSelector(cssPath)))
+            return driver.findElement(By.cssSelector(cssPath)).getAttribute(propertyName);
+
+        return "";
+    }
+
+    protected String ConvertStringToBooleanStr(String s_flag) {
+        if(s_flag.equalsIgnoreCase("False"))
+            return "0";
+        return "1";
+    }
+
+    protected String ConvertStringToCheckboxStatus(String s_flag) {
+        if(s_flag.equalsIgnoreCase("Yes"))
+            return "True";
+        return "False";
+    }
+
+    protected boolean ClickXPathElement(String sPath){
+        return ClickElement(By.xpath(sPath));
+    }
+
+    protected boolean ClickCSSElement(String sPath){
+        return ClickElement(By.cssSelector(sPath));
+    }
+
+    protected boolean ClickElement(By iClassName){
+        if(isElementPresent(iClassName)){
+            driver.findElement(iClassName).click();
+            return true;}
+
+        return false;
+    }
+
+    protected String GetTextXPathElement(String sPath){
+        return GetTextElement(By.xpath(sPath));
+    }
+
+    protected String GetTextCSSElement(String sPath){
+        return GetTextElement(By.cssSelector(sPath));
+    }
+
+    protected String GetTextElement(By iClassName) {
+        if(isElementPresent(iClassName)){
+            return driver.findElement(iClassName).getText(); }
+
+        return "";
+    }
+
+    protected boolean ClickLinkByText(String sText){
+        String sPath = "//a[contains(text(),'"+sText+"')]";
+        if(isElementPresent(By.xpath(sPath))){
+            driver.findElement(By.xpath(sPath)).click();
+            return true;
+        }
+
+        return false;
     }
 }

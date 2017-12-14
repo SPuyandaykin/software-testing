@@ -16,6 +16,9 @@ public class AdminPage extends Page{
     }
 
     public void loginAs (UserData admin){
+
+        if(isAdminLoggedAlready())
+            return;
         WebElement nameField = driver.findElement(By.name("username"));
         WebElement passField = driver.findElement(By.name("password"));
         type(nameField, admin.name);
@@ -29,5 +32,14 @@ public class AdminPage extends Page{
 
         return new MenuAdminPage(driver);
     }
+
+    public boolean isAdminLoggedAlready(){
+
+        if(isElementPresent(By.cssSelector("input[name='username']")))
+            return false;
+
+        return true;
+    }
+
 
 }
