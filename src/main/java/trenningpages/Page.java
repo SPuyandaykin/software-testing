@@ -219,4 +219,16 @@ public class Page {
 
         return false;
     }
+
+    protected boolean UploadFileFromFolder(String fileName){
+        String filePath = System.getProperty("user.dir")+fileName;
+        String sPath = "//input[@type='file']";
+        if(isElementPresent(By.xpath(sPath))) {
+            System.out.println(filePath);
+            driver.findElement(By.xpath(sPath)).sendKeys(filePath);
+            return true;
+        }
+
+        return false;
+    }
 }

@@ -26,8 +26,14 @@ public class NewGoodAddTest extends BaseTest {
         menuPage = adminPage.OpenAndLogin(admin);
         catalogPage = menuPage.OpenCatalogSubPage();
         Assert.assertTrue(catalogPage.AddNewProduct(newProduct));
-//        homePage.open();
-//        Assert.assertTrue(homePage.isProductExist(newProduct));
+        homePage.open();
+        Assert.assertTrue(homePage.isProductExist(newProduct));
+
+        DeleteNewProduct();
+    }
+
+    public void DeleteNewProduct(){
+        menuPage = adminPage.OpenAndLogin(admin);
     }
 }
 

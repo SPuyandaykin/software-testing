@@ -1,5 +1,6 @@
 package trenningpages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ProductPage extends ContentPage{
@@ -10,9 +11,9 @@ public class ProductPage extends ContentPage{
     public void AddProduct(String productName) {
 
         SetupGeneralParams(productName);
-//        SetupInformationParams();
-//        SetupPricesParams();
-//        SaveParams();
+        SetupInformationParams();
+        SetupPricesParams();
+        SaveParams();
     }
 
     public void SetupGeneralParams(String sname){
@@ -42,7 +43,8 @@ public class ProductPage extends ContentPage{
     }
 
     private void UploadImage(String sParam) {
-
+        String filePath = "\\src\\res\\silver-duck.jpg";
+        UploadFileFromFolder(filePath);
     }
 
     private void SetSoldOutStatus(String sParam) {
