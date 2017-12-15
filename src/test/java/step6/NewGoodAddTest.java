@@ -23,7 +23,7 @@ public class NewGoodAddTest extends BaseTest {
     @Test
     public void GoodsAddingTest() {
 
-       menuPage = adminPage.OpenAndLogin(admin);
+        menuPage = adminPage.OpenAndLogin(admin);
         catalogPage = menuPage.OpenCatalogSubPage();
         Assert.assertTrue(catalogPage.AddNewProduct(newProduct));
         homePage.open();

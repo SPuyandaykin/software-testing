@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import trenningpages.*;
+import trenningutils.UtilitiesClass;
 
 public class UserRegistrationTest extends BaseTest {
 
@@ -14,6 +15,7 @@ public class UserRegistrationTest extends BaseTest {
     private SecurityPage securityPage;
     private LoginPage loginPage;
     private CustomersPage customersPage;
+    private UtilitiesClass utilitiesClass;
 
     String userEmail = "yyy@yandex.ru";
     String userPassword = "Test";
@@ -23,10 +25,13 @@ public class UserRegistrationTest extends BaseTest {
         adminPage = new AdminPage(getWebDriver());
         loginPage = new LoginPage(getWebDriver());
         homePage = new HomePage(getWebDriver());
+        utilitiesClass = new UtilitiesClass();
     }
 
     @Test
     public void CreateUserTest() {
+
+        userEmail = utilitiesClass.EmailGenerator("@yandex.ru");
 
         TurnOffCaptcha();
 

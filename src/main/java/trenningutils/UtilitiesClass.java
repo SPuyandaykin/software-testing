@@ -22,4 +22,10 @@ public class UtilitiesClass {
         }
         return true;
     }
+
+    public String EmailGenerator (String domain) {
+            int a = (int) (Math.random()*(1000+1));
+            String s = Integer.toString(a);
+            return "sergey"+s+domain;
+    }
 }
