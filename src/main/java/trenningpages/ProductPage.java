@@ -165,4 +165,8 @@ public class ProductPage extends ContentPage{
         ClickButton("save");
     }
 
+    public void DeleteProduct(String productName) {
+        ClickButton("delete");
+        driver.switchTo().alert().accept();
+    }
 }

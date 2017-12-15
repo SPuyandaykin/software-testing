@@ -12,6 +12,8 @@ public class NewGoodAddTest extends BaseTest {
     private MenuAdminPage menuPage;
     private CatalogPage catalogPage;
 
+    String newProduct = "Silver Duck";
+
     @Before
     public void SetUp(){
         adminPage = new AdminPage(getWebDriver());
@@ -21,19 +23,19 @@ public class NewGoodAddTest extends BaseTest {
     @Test
     public void GoodsAddingTest() {
 
-        String newProduct = "Silver Duck";
-
-        menuPage = adminPage.OpenAndLogin(admin);
+       menuPage = adminPage.OpenAndLogin(admin);
         catalogPage = menuPage.OpenCatalogSubPage();
         Assert.assertTrue(catalogPage.AddNewProduct(newProduct));
         homePage.open();
         Assert.assertTrue(homePage.isProductExist(newProduct));
 
-        DeleteNewProduct();
+        DeleteNewProduct(); //clean base
     }
 
     public void DeleteNewProduct(){
         menuPage = adminPage.OpenAndLogin(admin);
+        catalogPage = menuPage.OpenCatalogSubPage();
+        Assert.assertTrue(catalogPage.DeleteProduct(newProduct));
     }
 }
 

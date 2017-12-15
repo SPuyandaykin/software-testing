@@ -15,7 +15,21 @@ public class CatalogPage extends TablePage {
         ClickXPathElement("//a[@class='button'][2]");
         productPage = new ProductPage(driver);
         productPage.AddProduct(productName);
-//        return (GetRowsNumber() > rowsBefore);
-        return true;
+        return (GetRowsNumber() > rowsBefore);
     }
+
+    public boolean DeleteProduct(String productName) {
+        ProductPage productPage;
+
+        int rowsBefore = GetRowsNumber();
+        productPage = SelectProduct(productName);
+        productPage.DeleteProduct(productName);
+        return (GetRowsNumber() < rowsBefore);
+    }
+
+    public ProductPage SelectProduct(String productName){
+        EditElementInTable(productName);
+        return new ProductPage(driver);
+    }
+
 }
