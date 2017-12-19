@@ -55,10 +55,12 @@ public class Page {
         if(!IsElementExists(iClassName)) {
             return false;
         }
+
         try {
             driver.findElement(iClassName).isDisplayed();
             return true;
         }catch (NoSuchElementException e){
+//        }catch (StaleElementReferenceException e){
             System.out.println("Element is not displayed: "+ iClassName);
             return false;
         }
@@ -76,7 +78,7 @@ public class Page {
     }
 
     public boolean SelectListBoxValue(String fieldName, String fieldValue) {
-        String selectorPath = "select[name="+fieldName+"]";
+        String selectorPath = "select[name*="+fieldName+"]";
         return ClickOnSelectedListBoxElement(selectorPath, fieldValue);
     }
 
@@ -230,5 +232,27 @@ public class Page {
         }
 
         return false;
+    }
+
+    protected WebElement GetElementByXpath (String sPath){
+        if(isElementPresent(By.xpath(sPath)))
+            return driver.findElement(By.xpath(sPath));
+
+        return null;
+    }
+
+    protected int GetWebElementQuantity(String sPath){
+        if (isElementPresent(By.xpath(sPath)))
+            return driver.findElements(By.xpath(sPath)).size();
+
+        return 0;
+    }
+
+    public void pause(Integer milliseconds){
+        try {
+            TimeUnit.MILLISECONDS.sleep(milliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

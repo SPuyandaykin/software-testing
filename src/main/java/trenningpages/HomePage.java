@@ -7,7 +7,9 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class HomePage extends Page{
+import static org.openqa.selenium.support.ui.ExpectedConditions.textToBe;
+
+public class HomePage extends ContentPage {
     public HomePage(WebDriver driver){ super(driver); }
 
     public void open(){
@@ -40,4 +42,10 @@ public class HomePage extends Page{
         SendEnterToEditBox("query");
         return new DuckPage(driver);
     }
+
+    public CartPage OpenCartPage(){
+        ClickLinkByText("Checkout");
+        return new CartPage(driver);
+    }
+
 }
