@@ -18,22 +18,23 @@ public class CartPage extends Page {
            return true;
 
         int numIcons = GetIconsNumber();
-        System.out.println("number is: "+numIcons);
 
         do {
             if(numIcons>1)
                 FixSwiminingDucks();
-            WebElement element = driver.findElement(By.xpath("//table[@class='dataTable rounded-corners']"));
-    //        pause(1000);
+            WebElement element = GetElementByXpath("//table[@class='dataTable rounded-corners']");
             RemoveCurrentProduct();
-            wait.until(stalenessOf(element));
             numIcons--;
-            System.out.println("counter is: "+ numIcons);
-            if(!CheckSummaryTable())
+            if(!GetUpdatedSummaryTable(element))
                 return true;
         } while (numIcons>0);
 
         return false;
+    }
+
+    private boolean GetUpdatedSummaryTable(WebElement element){
+        wait.until(stalenessOf(element));
+        return CheckSummaryTable();
     }
 
     private boolean CheckSummaryTable(){
@@ -57,9 +58,6 @@ public class CartPage extends Page {
 
     private void RemoveCurrentProduct(){
         System.out.println("removed");
-
-//        ClickElement(By.cssSelector("button[name='update_cart_item']"));
-        wait.until(presenceOfElementLocated(By.cssSelector("button[name='update_cart_item']")));
-        ClickElement(By.cssSelector("button[name='remove_cart_item']"));
+        ClickButton("remove_cart_item");
     }
 }
