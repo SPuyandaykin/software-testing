@@ -1,10 +1,13 @@
 package trenningpages;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import trenningutils.UtilitiesClass;
 
+import javax.annotation.Nullable;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Page {
@@ -60,7 +63,6 @@ public class Page {
             driver.findElement(iClassName).isDisplayed();
             return true;
         }catch (NoSuchElementException e){
-//        }catch (StaleElementReferenceException e){
             System.out.println("Element is not displayed: "+ iClassName);
             return false;
         }
@@ -214,6 +216,19 @@ public class Page {
 
     protected boolean ClickLinkByText(String sText){
         String sPath = "//a[contains(text(),'"+sText+"')]";
+        return ClickLinkByXPath(sPath);
+    }
+
+    protected boolean ClickByURLPartCSS(String urlPart){
+        String cssSelector = "a[href*='" + urlPart + "']";
+        if(isElementPresent(By.cssSelector(cssSelector))){
+            driver.findElement(By.cssSelector(cssSelector)).click();
+            return true;
+        }
+        return false;
+    }
+
+    protected boolean ClickLinkByXPath(String sPath){
         if(isElementPresent(By.xpath(sPath))){
             driver.findElement(By.xpath(sPath)).click();
             return true;
@@ -254,5 +269,67 @@ public class Page {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public ExpectedCondition<String> anyWindowOtherThan(final Set<String> oldWindows){
+        return new ExpectedCondition<String>() {
+            public String apply(WebDriver driver){
+                Set<String> handles = driver.getWindowHandles();
+                handles.removeAll(oldWindows);
+                return handles.size() > 0 ? handles.iterator().next() :null;
+            }
+        };
+    }
+
+    protected String GetUrlFollowingTextLabel(String labelText){
+
+        return "";
+    }
+
+    protected String OpenAndSwitchToURL(String urlPart){
+        String originalWindow = driver.getWindowHandle();
+        Set<String> oldWindows = driver.getWindowHandles();
+        ClickByURLPartCSS(urlPart);
+        String newWindow = wait.until(anyWindowOtherThan(oldWindows));
+        driver.switchTo().window(newWindow);
+        System.out.println("New window's title is: " + driver.getTitle());
+        return originalWindow;
+    }
+
+    protected boolean ReturnToMainWindow(String windowToReturn){
+        driver.close();
+        driver.switchTo().window(windowToReturn);
+        return true;
+    }
+
+    protected WebElement FindTableWithKeyText(String textForFind, int columnNumber){
+        String sPath = "//td[" + columnNumber + "]/span/a[contains(text(),'" + textForFind + "')]";
+        WebElement web = driver.findElement(By.xpath(sPath));
+        return web.findElement(By.xpath(".//ancestor::table"));
+    }
+
+    protected String GetColumnTextByTextInOtherColumnInTable (WebElement parentTable, String textFind, int columnNumber){
+        String spath = "//td/a[contains(text(),'" + textFind + "')]/parent::node()/parent::node()/td[" + columnNumber + "]";
+        return parentTable.findElement(By.xpath(spath)).getText();
+    }
+
+    protected String GetColumnTextByTextInOtherColumnOnPage (String textFind, int columnNumber){
+        String spath = "//td/a[contains(text(),'" + textFind + "')]/parent::node()/parent::node()/td[" + columnNumber + "]";
+        return driver.findElement(By.xpath(spath)).getText();
+    }
+
+    protected String GetUrlLinkFollowingEditBox(String nameEditBox){
+        String spath = "//input[@name='" + nameEditBox + "']//following::a[@target='_blank'][1]";
+        return driver.findElement(By.xpath(spath)).getAttribute("href");
+    }
+
+    protected String GetUrlLinkPrecedingEditBox(String nameEditBox){
+        String spath = "//input[@name='" + nameEditBox + "']//preceding::a[@target='_blank'][1]";
+        return driver.findElement(By.xpath(spath)).getAttribute("href");
+    }
+
+    protected String GetUrlLinkPrecedingTextArea(String nameEditBox){
+        String spath = "//textarea[@name='" + nameEditBox + "']//preceding::a[@target='_blank'][1]";
+        return driver.findElement(By.xpath(spath)).getAttribute("href");
     }
 }

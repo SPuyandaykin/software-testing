@@ -47,4 +47,10 @@ public class CountriesPage extends ContentPage{
 
         driver.findElement(By.cssSelector(".button-set button[name='cancel']")).click();
     }
+
+    public boolean AddNewCountry(String countryName){
+        ClickLinkByXPath("//a[@class='button'][contains(@href,'countries&doc=edit_country')]");
+        CountryPage countryPage = new CountryPage(driver);
+        return countryPage.CreateNewCountry(countryName);
+    }
 }
