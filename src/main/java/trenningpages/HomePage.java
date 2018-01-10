@@ -17,7 +17,7 @@ public class HomePage extends ContentPage {
     }
 
     public int counterGoods(){
-        return driver.findElements(By.className("image-wrapper")).size();
+        return driver.findElements(By.xpath("//li[@class='product column shadow hover-light']")).size();
     }
 
     public int getStickerNumber(int numberDuck){

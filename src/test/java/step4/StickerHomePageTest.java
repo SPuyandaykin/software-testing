@@ -21,6 +21,7 @@ public class StickerHomePageTest extends BaseTest {
         homePage.open();
 
         int goodCounter = homePage.counterGoods();
+        System.out.println("counter :"+goodCounter);
         for (int i = 0; i <= goodCounter-1; i++ ) {
             Assert.assertTrue(homePage.getStickerNumber(i) == 1);
         }
