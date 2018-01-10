@@ -1,7 +1,11 @@
 package trenningpages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class CatalogPage extends TablePage {
     public CatalogPage(WebDriver driver){
@@ -30,6 +34,22 @@ public class CatalogPage extends TablePage {
     public ProductPage SelectProduct(String productName){
         EditElementInTable(productName);
         return new ProductPage(driver);
+    }
+
+    public void ExpandMenu (String menuName){
+        SelectProduct(menuName);
+    }
+
+    public boolean OpenAllProducts(){
+        int productCounter = driver.findElements(By.xpath("//td/img/following::a[1]")).size();
+
+        for (int i = 0; i <= productCounter-1; i++ ) {
+            List<WebElement> productList = driver.findElements(By.xpath("//td/img/following::a[1]"));
+            productList.get(i).click();
+            ProductPage productPage = new ProductPage(driver);
+            productPage.CancelProduct();
+        }
+        return true;
     }
 
 }

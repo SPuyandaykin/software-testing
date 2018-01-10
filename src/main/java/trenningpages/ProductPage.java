@@ -169,4 +169,8 @@ public class ProductPage extends ContentPage{
         ClickButton("delete");
         driver.switchTo().alert().accept();
     }
+
+    public void CancelProduct() {
+        ClickButton("cancel");
+    }
 }
