@@ -1,6 +1,9 @@
 package BaseTestPages;
 
 import com.google.common.io.Files;
+import net.lightbody.bmp.BrowserMobProxy;
+import net.lightbody.bmp.BrowserMobProxyServer;
+import net.lightbody.bmp.client.ClientUtil;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.*;
@@ -8,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -21,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected EventFiringWebDriver driver;
-
+    public BrowserMobProxy proxy;
     public UserData admin = new UserData("admin", "admin");
 
     public static class MyListener extends AbstractWebDriverEventListener{
@@ -59,7 +63,13 @@ public class BaseTest {
     }
 
     private void startChromeDriver(){
-        driver = new EventFiringWebDriver(new ChromeDriver());
+
+        proxy = new BrowserMobProxyServer();
+        proxy.start(0);
+        Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+        driver = new EventFiringWebDriver(new ChromeDriver(capabilities));
         driver.register(new MyListener());
     }
 
@@ -75,10 +85,10 @@ public class BaseTest {
     }
 
     protected WebDriver getWebDriver(){
-        if(driver == null){
+/*        if(driver == null){
             driver = new EventFiringWebDriver (new ChromeDriver());
             driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
-        }
+        }*/
         return driver;
     }
 
