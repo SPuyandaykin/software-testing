@@ -27,6 +27,6 @@ public class LogBrowserTest  extends BaseTest {
         catalogPage.ExpandMenu("Rubber Ducks");
         catalogPage.ExpandMenu("Subcategory");
         Assert.assertTrue(catalogPage.OpenAllProducts());
-        driver.manage().logs().get("browser").forEach(l -> System.out.println(l));
+//        driver.manage().logs().get("browser").forEach(l -> System.out.println(l));
     }
 }
